@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+}
+@font-face{
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+    
+    @font-face{
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+    }
+html {
+    font-family: 'Gilroy-Regular';
+}
+
+body {
+    background: #FFFFFF;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    color: #000000;
+    gap: 30px;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+#home_text{
+    color: #F25822;
+}
+
+.menu-item {
+    font-family: 'Gilroy-Semibold';
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.text-logo {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.logo {
+    height: 100px;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-right: 550px;
+}
+.intro {
+    display: flex;
+    gap: 128px;
+    margin-top: 160px;
+    width: 1146px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.intro-title {
+    color: #0b0b0b;
+    font-family: 'Gilroy-Bold';
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 130%;
+    margin-bottom: 40px; 
+}
+.intro-text {
+    color: #888888;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 160%;
+    opacity: 0.7;
+    margin-bottom: 50px;
+    width: 558px; 
+}
+.intro-button {
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: 'Gilroy-Bold';
+    background-color: #F25822;
+    border: none;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+}
+.intro-button-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.text-logo::after {
+    content: attr(data-content); /* Задаем атрибут data-content и используем его содержимое в качестве текста */
+    color: #F25822; /* Оранжевый цвет для последних двух букв */
+  }
+
+  .logos {
+    margin-top: 197px;
+    width: 1146px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
