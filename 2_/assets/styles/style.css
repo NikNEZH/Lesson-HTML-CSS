@@ -55,9 +55,10 @@ ul {
 }
 
 .header {
-    height: 100px;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
+    align-items: center;
 }
 
 #home_text{
@@ -81,14 +82,13 @@ ul {
 .logo {
     height: 100px;
     display: flex;
-    align-content: center;
+    align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-right: 550px;
 }
 .intro {
     display: flex;
-    gap: 128px;
     margin-top: 160px;
     width: 1146px;
     margin-left: auto;
@@ -115,7 +115,7 @@ ul {
 }
 .intro-button {
     padding: 15px 30px;
-    border-radius: 15px;
+    border-radius: 50px;
     font-family: 'Gilroy-Bold';
     background-color: #F25822;
     border: none;
